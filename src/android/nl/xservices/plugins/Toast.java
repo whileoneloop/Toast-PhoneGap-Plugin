@@ -249,7 +249,7 @@ public class Toast extends CordovaPlugin {
 
   @Override
   public void onPause(boolean multitasking) {
-    hide();
+    //hide();
     this.isPaused = true;
   }
 
